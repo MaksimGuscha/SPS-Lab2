@@ -163,7 +163,7 @@ public sealed class AppleAdaptiveProfitPolicy : ISystemPolicy
             {
                 break;
             }
-            if (candidate.Value >= newValue)
+            if (candidate.Value >= newValue)rfr
             {
                 return CacheWriteDecision.Skip();
             }
